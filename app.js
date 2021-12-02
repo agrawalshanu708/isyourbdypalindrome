@@ -1,6 +1,6 @@
-var bdyDate = document.querySelector("#bdy-date")
-var checkButton = document.querySelector("#check-button")
-var outputDiv = document.querySelector("#output-div")
+const checkButton = document.querySelector("#check-button")
+const bdyDate = document.querySelector("#bdy-date")
+const outputDiv = document.querySelector("#output-div")
 
 checkButton.addEventListener("click", function validate(){
 var dob = bdyDate.value;
