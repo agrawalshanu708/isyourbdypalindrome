@@ -11,9 +11,6 @@ var bdatepalind = isPalindrome(dob);
  }else{
   outputDiv.innerText = "not palindrome";
  }
-
-
-
 })
 
 function isPalindrome(dob){
